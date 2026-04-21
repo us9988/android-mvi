@@ -51,8 +51,8 @@ Located at: `presentation/base/`
   - `state: StateFlow<State>` — via `MutableStateFlow`
   - `effect: Flow<Effect>` — via `Channel(Channel.BUFFERED)`
   - `setState {}` — update state immutably
-  - `sendEffect()` — emit one-time effect
-  - `onEvent()` — abstract, handle UiEvent
+  - `onEvent()` — public entry point, delegates to `handleEvent()`
+  - `handleEvent()` — abstract, override in each ViewModel
 
 ---
 

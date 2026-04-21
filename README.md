@@ -18,7 +18,7 @@ Three markdown files define how Claude understands and works within this project
 
 ### Scaffold entire project structure
 ```bash
-read scaffold the entire project structure with base classes and a Sample feature
+read STRUCTURE.md and scaffold the entire project structure with base classes and a Sample feature
 ```
 
 ## Project Structure
